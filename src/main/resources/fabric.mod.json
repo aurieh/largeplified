@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "largeplified",
+  "version": "${version}",
+  "name": "mend",
+  "description": "Large Biomes, Amplified: because you don't hate yourself enough.",
+  "authors": [
+    "Aurieh"
+  ],
+  "contact": {
+    "Aurieh": "me@aurieh.me"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.aurieh.largeplified.LargePlified"
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "*",
+      "config": "largeplified.mixins.json"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0"
+  }
+}
